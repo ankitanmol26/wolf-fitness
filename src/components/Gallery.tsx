@@ -116,7 +116,7 @@ export default function Gallery() {
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
-              className="relative w-full max-w-5xl aspect-video"
+              className="relative w-full h-full max-h-[80vh] max-w-5xl"
               onClick={(e) => e.stopPropagation()}
             >
               <Image 

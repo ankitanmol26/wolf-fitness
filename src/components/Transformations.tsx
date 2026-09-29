@@ -50,7 +50,7 @@ export default function Transformations() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="group"
             >
-              <div className="relative aspect-video flex overflow-hidden rounded-sm border border-white/10">
+              <div className="relative aspect-square md:aspect-video flex overflow-hidden rounded-sm border border-white/10">
                 {/* Before Image */}
                 <div className="w-1/2 relative grayscale brightness-75 border-r border-white/20">
                   <Image src={item.before} alt="Before" fill className="object-cover" />

@@ -70,7 +70,7 @@ export default function Location() {
               </Link>
               
               <a
-                href="https://wa.me/[WHATSAPP_NUMBER]"
+                href="https://wa.me/919876543210?text=Hi,%20I%20am%20interested%20in%20Wolf's%20Fitness%20Zone%2099!"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex justify-center items-center px-6 py-3 bg-[#25D366] hover:bg-[#1EBE5A] text-white font-bold uppercase tracking-wider rounded-sm transition-colors"

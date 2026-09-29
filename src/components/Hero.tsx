@@ -27,18 +27,18 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-3xl"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-6 text-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-4 md:mb-6 text-shadow-lg">
             Build the <span className="text-brand-red">Strongest</span> Version of You.
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl font-light">
+          <p className="text-lg md:text-2xl text-gray-300 mb-8 md:mb-10 max-w-2xl font-light">
             Train harder. Get stronger. Become relentless. The ultimate fitness experience in Isnapur.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <Link 
               href="#contact"
-              className="group relative inline-flex items-center justify-center px-8 py-4 bg-brand-red text-white font-bold uppercase tracking-wider overflow-hidden rounded-sm transition-transform hover:scale-105"
+              className="group relative inline-flex items-center justify-center px-6 py-3 md:px-8 md:py-4 bg-brand-red text-white font-bold uppercase tracking-wider overflow-hidden rounded-sm transition-transform hover:scale-105"
             >
               <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-black" />
               <span className="relative flex items-center gap-2">
@@ -50,7 +50,7 @@ export default function Hero() {
               href="https://maps.app.goo.gl/WnTWYhGnuXdcgWGR9?g_st=ac"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold uppercase tracking-wider border border-white/20 rounded-sm transition-all"
+              className="inline-flex items-center justify-center px-6 py-3 md:px-8 md:py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold uppercase tracking-wider border border-white/20 rounded-sm transition-all"
             >
               <MapPin className="w-5 h-5 mr-2" /> Get Directions
             </Link>
