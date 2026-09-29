@@ -23,7 +23,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-24 bg-black relative">
+    <section id="testimonials" className="py-16 md:py-24 bg-black relative">
       {/* Accent Background */}
       <div className="absolute left-0 bottom-0 w-1/3 h-1/2 bg-brand-red/10 blur-[120px] pointer-events-none rounded-full" />
       

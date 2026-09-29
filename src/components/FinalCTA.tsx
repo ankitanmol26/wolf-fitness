@@ -6,7 +6,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-32 overflow-hidden border-y border-white/5">
+    <section className="relative py-20 md:py-32 overflow-hidden border-y border-white/5">
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
@@ -27,7 +27,7 @@ export default function FinalCTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-5xl md:text-7xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-6 text-shadow-lg">
+          <h2 className="text-4xl sm:text-5xl md:text-7xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-6 text-shadow-lg">
             Your Excuses <span className="text-brand-red">End Here.</span>
           </h2>
           

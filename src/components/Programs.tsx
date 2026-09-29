@@ -28,7 +28,7 @@ const programs = [
 
 export default function Programs() {
   return (
-    <section id="programs" className="py-24 bg-black relative">
+    <section id="programs" className="py-16 md:py-24 bg-black relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <motion.h2 

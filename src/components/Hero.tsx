@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-3xl"
         >
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-6 text-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-bold uppercase tracking-tight text-white leading-tight mb-6 text-shadow-lg">
             Build the <span className="text-brand-red">Strongest</span> Version of You.
           </h1>
           

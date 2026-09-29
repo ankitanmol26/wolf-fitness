@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} ${oswald.variable} font-sans antialiased bg-black text-white`}
+        className={`${inter.variable} ${oswald.variable} font-sans antialiased bg-black text-white overflow-x-hidden`}
       >
         <Navbar />
         {children}

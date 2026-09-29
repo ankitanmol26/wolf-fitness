@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-black relative overflow-hidden">
+    <section id="about" className="py-16 md:py-24 bg-black relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute top-0 right-0 w-1/3 h-1/2 bg-brand-red/10 blur-[120px] rounded-full pointer-events-none" />
       
